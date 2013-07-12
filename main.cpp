@@ -32,7 +32,11 @@ void init (void)
      GLfloat mat_specular[] = {1.0, 1.0, 1.0, 1.0};
      GLfloat mat_shininess[] = {50.0};
      GLfloat light_position[] = {1.0, 1.0, 1.0, 1.0};
+<<<<<<< HEAD
      GLfloat white_light[] = {2.0, 1.0, 2.0, 1.0};
+=======
+     GLfloat white_light[] = {1.0, 1.0, 1.0, 1.0};
+>>>>>>> e16b0b9b5191e522be15086f88d6d34418e1c6d3
      GLfloat lmodel_ambient[] = {0.1, 0.1, 0.1, 1.0}; 
      
      glClearColor (0.0, 0.0, 0.0, 0.0);
@@ -70,7 +74,10 @@ void koordinatz(void)
      glVertex2f(5.4,3);
      glEnd();
 }
+<<<<<<< HEAD
  
+=======
+>>>>>>> e16b0b9b5191e522be15086f88d6d34418e1c6d3
 // Akhir Garis Koordinat
 
 //kerucut
@@ -325,6 +332,11 @@ void camera (void) {
     glTranslated(-xpos,-ypos,-zpos);
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> e16b0b9b5191e522be15086f88d6d34418e1c6d3
 void display (void)
 {
      const double waktu = glutGet (GLUT_ELAPSED_TIME) / 1000.0;
@@ -407,7 +419,12 @@ void display (void)
      glScalef(0.06,3.0,0.06);
      kubussolid();
      glPopMatrix();
+<<<<<<< HEAD
 
+=======
+     
+     
+>>>>>>> e16b0b9b5191e522be15086f88d6d34418e1c6d3
     //-----------------------------------DINDING TAMAN---------------------
 //Dinding taman kiri atas
      glPushMatrix();
@@ -628,6 +645,7 @@ void display (void)
      kubussolid();
      glPopMatrix();
      
+<<<<<<< HEAD
 //kursi dalam lapangan bulutangkis
      glPushMatrix();
      glColor3f(0.8f, 0.5f, 0.3f);
@@ -643,6 +661,8 @@ void display (void)
      kubussolid();
      glPopMatrix();
      
+=======
+>>>>>>> e16b0b9b5191e522be15086f88d6d34418e1c6d3
 //kursi kiri 1
      glPushMatrix();
      glColor3f(0.8f, 0.5f, 0.3f);
@@ -748,7 +768,10 @@ void display (void)
      kubussolid();
      glPopMatrix();
      
+<<<<<<< HEAD
 
+=======
+>>>>>>> e16b0b9b5191e522be15086f88d6d34418e1c6d3
 //kursi dalam taman kanan samping kolam
      glPushMatrix();
      glColor3f(0.8f, 0.5f, 0.3f);
@@ -1801,7 +1824,11 @@ void display (void)
      glPushMatrix();
      glTranslatef(2.5,-0.46,-2.43);
      glScalef(1.8,0.5,2.2);
+<<<<<<< HEAD
      glColor3f(1.2,0.3,0.0);
+=======
+     glColor3f(0.3,0.3,0.0);
+>>>>>>> e16b0b9b5191e522be15086f88d6d34418e1c6d3
      kubussolid();
      glPopMatrix();
      glDisable(GL_LIGHTING);
@@ -1823,7 +1850,11 @@ void display (void)
      glDisable(GL_LIGHT0);
      glPopMatrix(); 
 //akhir
+<<<<<<< HEAD
      // tiang kecil masjid -------------------------------------------------------------------       
+=======
+     // tiang kecil masjid -------------------------------------------------------------------    
+>>>>>>> e16b0b9b5191e522be15086f88d6d34418e1c6d3
 //tiang masjid 1 kiri
      glPushMatrix();
      glTranslatef(1.8,-0.5,-1.75);
@@ -1991,7 +2022,11 @@ void display (void)
      glPushMatrix();
      glTranslatef(2.5,-0.99,-1.18);
      glScalef(3.0,0.001,2.0);
+<<<<<<< HEAD
      glColor3f(0.3,0.3,0.3);
+=======
+     glColor3f(1.0,1.0,1.0);
+>>>>>>> e16b0b9b5191e522be15086f88d6d34418e1c6d3
      kubussolid();
      glPopMatrix();
      glDisable(GL_LIGHTING);
@@ -2390,6 +2425,7 @@ void display (void)
      glColor3f(0.5,0.2,0.2);
      kubussolid();
      glPopMatrix();
+<<<<<<< HEAD
 //test
 
 glPushMatrix();
@@ -2401,6 +2437,9 @@ glPushMatrix();
      glPopMatrix();
      glPopMatrix();
      
+=======
+
+>>>>>>> e16b0b9b5191e522be15086f88d6d34418e1c6d3
 //LAMPU taman tengah Atas
      glPushMatrix();
      glTranslatef(-1.30,-0.5,0.5);
@@ -2571,7 +2610,12 @@ glPushMatrix();
          kubussolid();
          glPopMatrix();
          
+<<<<<<< HEAD
 
+=======
+         
+         
+>>>>>>> e16b0b9b5191e522be15086f88d6d34418e1c6d3
 //atap sekolah
      glPushMatrix();
        glColor3f(0.3,0.2,0.0);
@@ -2798,6 +2842,10 @@ glPushMatrix();
      glScalef(0.01,0.3,0.55);
      kubussolid();
      glPopMatrix();
+<<<<<<< HEAD
+=======
+
+>>>>>>> e16b0b9b5191e522be15086f88d6d34418e1c6d3
 //1
      glPushMatrix();
      glColor3f(0.25f, 0.25f, 0.25f);
@@ -3455,7 +3503,11 @@ glPushMatrix();
      glRotatef(-90.0,1.0,0.0,0.0);
      cone (0.5,0.7,30,6);
      glPopMatrix();
+<<<<<<< HEAD
  
+=======
+     
+>>>>>>> e16b0b9b5191e522be15086f88d6d34418e1c6d3
 // pohon tengah
 //tangkal
      glPushMatrix();
@@ -3521,7 +3573,10 @@ glPushMatrix();
      glRotatef(-90.0,1.0,0.0,0.0);
      cone (0.5,0.7,30,6);
      glPopMatrix();
+<<<<<<< HEAD
      
+=======
+>>>>>>> e16b0b9b5191e522be15086f88d6d34418e1c6d3
 //--------Akhir Pohon taman
    
 //--------------- bunga di kolam --------------
